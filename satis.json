@@ -1,0 +1,30 @@
+{
+    "name": "sundata/private-packages",
+    "homepage": "https://packages.sddns.nl",
+    "output-dir": "web",
+    "output-html": true,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/frittsnl/sundata-php-utilities.git",
+            "installation-source": "source"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/frittsnl/brown.git",
+            "installation-source": "dist"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/frittsnl/sentry-tagger.git",
+            "installation-source": "dist"
+        }
+    ],
+    "require-all": false,
+    "require-dependencies": false,
+    "require-dev-dependencies": false,
+    "require-dependency-filter": true,
+    "minimum-stability": "dev",
+    "providers": false,
+    "pretty-print": true
+}
